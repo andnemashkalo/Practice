@@ -18,9 +18,9 @@ public class NewThread implements Runnable {
                 Thread.sleep(1000);
             }
         }catch(InterruptedException e){
-            System.out.println(name+"interrupted");
+            System.out.println(name+" interrupted");
         }
-        System.out.println(name+"existing");
+        System.out.println(name+" existing");
     }
 }
 
